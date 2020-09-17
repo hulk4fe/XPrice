@@ -1,0 +1,25 @@
+{
+  "name": "xprice",
+  "version": "1.0.0",
+  "description": "h5 price react component",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/me-hotel/XPrice.git"
+  },
+  "keywords": [
+    "h5",
+    "react",
+    "component",
+    "price"
+  ],
+  "author": "DSG",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/me-hotel/XPrice/issues"
+  },
+  "homepage": "https://github.com/me-hotel/XPrice#readme"
+}
