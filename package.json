@@ -1,6 +1,6 @@
 {
-  "name": "xprice",
-  "version": "1.0.3",
+  "name": "@me-hotel/xprice",
+  "version": "1.0.4",
   "description": "h5 price react component",
   "main": "es/index.js",
   "module": "es/index.js",
@@ -26,7 +26,8 @@
   },
   "homepage": "https://github.com/me-hotel/XPrice#readme",
   "devDependencies": {
-    "ibuild": "0.0.4"
+    "@me-hotel/ibuild": "0.0.7"
   },
-  "dependencies": {}
+  "dependencies": {
+  }
 }
