@@ -26,7 +26,8 @@ export default (props) => {
     transformTrail = '0.8', // 价格尾部文案缩放，默认0.8
     width = '', // 容齐的指定宽度，默认auto
     line = false, // 是否需要中划线
-    style = {} // 容器额外的样式
+    style = {}, // 容器额外的样式
+    position = 'center' // 文本text-align排版
   } = props
   const [sprice, setSprice] = useState({})
   const [ready, setReady] = useState(false)
@@ -82,7 +83,8 @@ export default (props) => {
       { prefix ? <div 
       style={{
         transform: `scale(${transformLeft}) translate(${percent(transformLeft, 2)}, ${percent(transformLeft, 2)})`,
-        WebkitTransform: `scale(${transformLeft}) translate(${percent(transformLeft, 2)}, ${percent(transformLeft, 2)})`
+        WebkitTransform: `scale(${transformLeft}) translate(${percent(transformLeft, 2)}, ${percent(transformLeft, 2)})`,
+        textAlign: position
       }}
       className="subsidy-font_left font_common">
         { line ? <s>{get(sprice, 'left', '')}</s> : <span>{get(sprice, 'left', '')}</span>}
